@@ -6,6 +6,8 @@ This articles provides a good overview of this area: [Spring Cloud Contract in a
 
 This code project takes more of a consumer driven contract approach to using Spring Cloud Contract in a polyglot world. The producer, "Produce Service" is a Spring Boot application, the front-end service is a Javascript (to be added later). The developer, hypothetically writing the produce client, likely wouldn't have much knowledge around Java development and/or build tools for running Java application installed on their system. Spring Cloud Contract provides docker images that encapsulate all the Spring Cloud Contract logic allowing a Javascript, and/or non-Java developer to write contracts (in YAML) and test those contracts work, and then run a stub server which can serve as mock representation of the real Produce Service API. 
 
+Generated API Doc can be viewed here: [Produce API](http://htmlpreview.github.io/?https://github.com/wkorando/collaborative-contract-driven-development-2-0/blob/master/index.html)
+
 Contracts located in repo: [Produce Contracts](https://github.com/wkorando/produce-contracts)
 
 Client located in repo: [Produce Client](https://github.com/wkorando/produce-client)
